@@ -13,7 +13,9 @@ You will need to figure out what layer your print stopped at, we will be startin
 - Adaptive layer height: This code should work with adaptive layer height and consistent layer height.
 
 ## Usage
-This solution requires you to edit the G code and modifying the python script before running.
+This solution requires you to edit the G code and modify the python script before running.
+
+
 ## Editing the Gcode
 1. Save a copy of your g-code that does not get edited, in case you have to start over.
 2. Fixing the auto home. This line of code will be found very early in your G code, if there are multiple, just consider the first one, the following ones will be deleted later on. This will make sure the extruder doesn’t go back to the bed height and crush your print.  
